@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body{
+    font-family: 'Jua', sans-serif;
+    
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(60, 161, 111);
+}
+
+.report{
+    height:500px;
+
+    font-size: 20px;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+    padding:50px;
+}
+
+table{
+    height:500px;
+    width:500px;
+
+    font-size: 40px;
+    background-color: beige;
+}
