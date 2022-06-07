@@ -1,6 +1,3 @@
-<?php
-?>
-
 <html>
     <head>
         <title>이화 푸드코드 매출 보고서</title>

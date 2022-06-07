@@ -12,10 +12,6 @@ body{
 }
 
 .report{
-    height:500px;
-
-    font-size: 20px;
-
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -26,24 +22,21 @@ body{
     padding:50px;
 }
 
-.router{
-    height:70%;
+table{
+    height:auto;
+    width:auto;
 
-    flex:1;
+    background-color: rgb(229, 229, 229);
 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: rgb(152, 152, 152);
-
-    border-radius: 8px;
-    padding: 20px;
+    padding:10px;
 }
 
-.router:hover{
-    background-color: lightgray;
-    box-shadow: 3px 3px 3px grey;
-    cursor: pointer;
+table th{
+    font-size: 40px;
+    padding:5px;
 }
 
+table td{
+    font-size: 30px;
+    padding:5px;
+}

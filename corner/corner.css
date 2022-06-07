@@ -12,24 +12,30 @@ body{
 }
 
 .report{
-    height:500px;
-
-    font-size: 20px;
-
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap:wrap;
     justify-content: center;
     align-items: center;
 
-    gap: 50px;
-    padding:50px;
+    margin-bottom: 30px;
 }
 
 table{
-    height:500px;
-    width:500px;
+    height:auto;
+    width:auto;
 
+    background-color: rgb(229, 229, 229);
+
+    padding:10px;
+}
+
+table th{
     font-size: 40px;
-    background-color: beige;
+    padding:5px;
+}
+
+table td{
+    font-size: 30px;
+    padding:5px;
 }
